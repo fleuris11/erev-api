@@ -40,7 +40,7 @@ public class CodebarService {
                 //resultstring.add("ID: " + resultSet.getInt("PROD_ID") + " | Name: " + resultSet.getString("PRODLIB"));
                 //jsonObject.append("ID",resultSet.getInt("PROD_ID"));
                 jsonObject.append("Name",resultSet.getString("PRODLIB"));
-                jsonObject.append("Prix",resultSet.getInt("PROD_PXVENTEUTTC"));
+                jsonObject.append("Prix Produit",resultSet.getInt("PROD_PXVENTEUTTC"));
 
             }
             context.result(String.valueOf(jsonObject));
